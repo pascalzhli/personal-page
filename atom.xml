@@ -23,13 +23,14 @@
     <published>2020-08-20T10:10:50.000Z</published>
     <updated>2020-08-20T11:32:47.683Z</updated>
     
-    <content type="html"><![CDATA[<p>当在浏览器中输入一个域名并回车时：<br>会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址</p><p><img src= "/img/loading.gif" data-lazy-src="/images/pasted-0.png" alt="upload successful"></p><p>若没有就去DNS服务器中寻找该域名对应的ip地址 找到就返回 找不到就返回找不到报错</p><p>1个ip可以对应多个域名</p>]]></content>
+    <content type="html"><![CDATA[<p>当在浏览器中输入一个域名并回车时：<br>会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/images/pasted-0.png" alt="upload successful" title="">                </div>                <div class="image-caption">upload successful</div>            </figure><p>若没有就去DNS服务器中寻找该域名对应的ip地址 找到就返回 找不到就返回找不到报错</p><p>1个ip可以对应多个域名</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;当在浏览器中输入一个域名并回车时：&lt;br&gt;会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址&lt;/p&gt;
-&lt;p&gt;&lt;img src= &quot;/img/loading.gif</summary>
+&lt;figure class=&quot;image-bubble&quot;&gt;
+</summary>
       
     
     
@@ -44,7 +45,7 @@
     <published>2020-08-19T12:38:00.000Z</published>
     <updated>2020-08-20T08:52:59.411Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best"><a href="#this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best" class="headerlink" title="this is my first blog and I will try my best to show you something best."></a>this is my first blog and I will try my best to show you something best.</h1><p><img src= "/img/loading.gif" data-lazy-src="/images/pasted-3.png" alt="upload successful"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best"><a href="#this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best" class="headerlink" title="this is my first blog and I will try my best to show you something best."></a>this is my first blog and I will try my best to show you something best.</h1><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/images/pasted-3.png" alt="upload successful" title="">                </div>                <div class="image-caption">upload successful</div>            </figure>]]></content>
     
     
       
