@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  
+  <link href="https://zhihuali.cn/atom.xml" rel="self"/>
+  
+  <link href="https://zhihuali.cn/"/>
+  <updated>2020-08-20T11:32:47.683Z</updated>
+  <id>https://zhihuali.cn/</id>
+  
+  <author>
+    <name>Zhihua Li</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[面试-01]网站是如何被访问的</title>
+    <link href="https://zhihuali.cn/2020/08/20/%E7%BD%91%E7%AB%99%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%BF%E9%97%AE%E7%9A%84/"/>
+    <id>https://zhihuali.cn/2020/08/20/%E7%BD%91%E7%AB%99%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%BF%E9%97%AE%E7%9A%84/</id>
+    <published>2020-08-20T10:10:50.000Z</published>
+    <updated>2020-08-20T11:32:47.683Z</updated>
+    
+    <content type="html"><![CDATA[<p>当在浏览器中输入一个域名并回车时：<br>会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址</p><p><img src= "/img/loading.gif" data-lazy-src="/images/pasted-0.png" alt="upload successful"></p><p>若没有就去DNS服务器中寻找该域名对应的ip地址 找到就返回 找不到就返回找不到报错</p><p>1个ip可以对应多个域名</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;当在浏览器中输入一个域名并回车时：&lt;br&gt;会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址&lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MyFirstBlog</title>
+    <link href="https://zhihuali.cn/2020/08/19/HelloMyBlog/"/>
+    <id>https://zhihuali.cn/2020/08/19/HelloMyBlog/</id>
+    <published>2020-08-19T12:38:00.000Z</published>
+    <updated>2020-08-20T08:52:59.411Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best"><a href="#this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best" class="headerlink" title="this is my first blog and I will try my best to show you something best."></a>this is my first blog and I will try my best to show you something best.</h1><p><img src= "/img/loading.gif" data-lazy-src="/images/pasted-3.png" alt="upload successful"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best&quot;&gt;&lt;a href=&quot;#this-is-my-first-blog-and-I-will-try-my-best-to-s</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zhihuali.cn/2020/08/19/hello-world/"/>
+    <id>https://zhihuali.cn/2020/08/19/hello-world/</id>
+    <published>2020-08-19T04:50:44.710Z</published>
+    <updated>2020-08-19T05:38:36.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
