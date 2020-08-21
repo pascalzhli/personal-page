@@ -63,16 +63,12 @@
     <link href="https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/"/>
     <id>https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/</id>
     <published>2020-08-20T11:33:59.000Z</published>
-    <updated>2020-08-21T05:32:48.631Z</updated>
+    <updated>2020-08-21T14:47:46.408Z</updated>
     
-    <content type="html"><![CDATA[<p>在绑定域名后<br>1、<br>需要将_config.yml中的<br><img src="/images/pasted-1.png" alt="upload successful"><br>url 改成自己的域名</p><p>2、需要在github中的setting修改配置</p><p><img src="/images/pasted-5.png" alt="upload successful"></p><p>改动上述两个位置 404成功解决</p>]]></content>
+    <content type="html"><![CDATA[<p>在绑定域名后<br>1、<br>需要将_config.yml中的<br><img src="/images/pasted-1.png" alt="upload successful"><br>url 改成自己的域名</p><a id="more"></a><p>2、需要在github中的setting修改配置</p><p><img src="/images/pasted-5.png" alt="upload successful"></p><p>改动上述两个位置 404成功解决</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;在绑定域名后&lt;br&gt;1、&lt;br&gt;需要将_config.yml中的&lt;br&gt;&lt;img src=&quot;/images/pasted-1.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;url 改成自己的域名&lt;/p&gt;
-&lt;p&gt;2、需要在github中的setting修改</summary>
-      
+    <summary type="html">&lt;p&gt;在绑定域名后&lt;br&gt;1、&lt;br&gt;需要将_config.yml中的&lt;br&gt;&lt;img src=&quot;/images/pasted-1.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;url 改成自己的域名&lt;/p&gt;</summary>
     
     
     
