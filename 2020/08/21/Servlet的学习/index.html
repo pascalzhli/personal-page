@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.1.1" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.1.1" type="image/png" sizes="32x32"><meta name="description" content="1.Servlet是开发动态web的一门技术2.Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：  编写一个类，实现Servlet接口 将开发好的java类部署到web服务器中  综上所述 将实现了Servlet接口的java程序 称为Servlet 3.Servlet程序的书写步骤： 1.构建一个普通的maven项目，删除里面的src目录，这个空的工程就">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Servlet的学习（一）">
+<meta property="og:url" content="https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name">
+<meta property="og:description" content="1.Servlet是开发动态web的一门技术2.Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：  编写一个类，实现Servlet接口 将开发好的java类部署到web服务器中  综上所述 将实现了Servlet接口的java程序 称为Servlet 3.Servlet程序的书写步骤： 1.构建一个普通的maven项目，删除里面的src目录，这个空的工程就">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-11.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-12.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-13.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-14.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-15.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-16.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-17.png">
+<meta property="og:image" content="https://zhihuali.cn/images/pasted-19.png">
+<meta property="article:published_time" content="2020-08-21T07:34:48.000Z">
+<meta property="article:modified_time" content="2020-08-21T10:09:18.349Z">
+<meta property="article:author" content="Zhihua Li">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhihuali.cn/images/pasted-11.png"><title>Servlet的学习（一） | </title><link ref="canonical" href="https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.1.1"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"Copy","copySuccess":"Copy Success","copyError":"Copy Error"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="" type="application/atom+xml">
+</head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">menu.主页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">menu.时间轴</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">menu.分类</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title"></div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">Servlet的学习（一）</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2020-08-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2020-08-21</span></span></div></header><div class="post-body"><p>1.Servlet是开发动态web的一门技术<br>2.Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：</p>
+<ul>
+<li>编写一个类，实现Servlet接口</li>
+<li>将开发好的java类部署到web服务器中</li>
+</ul>
+<p>综上所述 将实现了Servlet接口的java程序 称为Servlet</p>
+<p>3.Servlet程序的书写步骤：</p>
+<pre><code>1.构建一个普通的maven项目，删除里面的src目录，这个空的工程就是Maven主工程 在学习过程中可以再新建多个子项目 此时就可以使用模板来构建子工程</code></pre>
+<p><img src="/images/pasted-11.png" alt="upload successful"></p>
+<pre><code>2.Maven中子项目可以使用父项目中的依赖
+3.Maven环境优化
+   1.将xml中的web.xml处内容改为
+   &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;
+     xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+     xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;
+     version=&quot;4.0&quot;&gt;
+&lt;/web-app&gt;
+   2.为模板构建的web子工程中添加java和resource文件夹
+4.生成一个Servlet类
+   1.编写一个普通类
+   2.实现Servlet接口
+  Servlet接口有两个默认的实现类：HttpServlet和GenericServlet所以只需要继承即可
+   3.添加Servlet映射/在web.xml中注册
+
+   4.配置Tomcat</code></pre>
+<p><img src="/images/pasted-12.png" alt="upload successful"></p>
+<pre><code>5.启动测试</code></pre>
+<p>4.Servlet原理<br>由Web服务器调用 Web服务器会在收到浏览器请求后进行如下步骤：<br><img src="/images/pasted-13.png" alt="upload successful"></p>
+<p>5.Mapping问题</p>
+<ul>
+<li>一个Servlet可以指定一个映射路径</li>
+</ul>
+<p><img src="/images/pasted-14.png" alt="upload successful"></p>
+<ul>
+<li>一个Servlet可以指定多个映射路径</li>
+</ul>
+<p><img src="/images/pasted-15.png" alt="upload successful"></p>
+<ul>
+<li>一个Servlet可以指定通用映射路径</li>
+</ul>
+<p><img src="/images/pasted-16.png" alt="upload successful"></p>
+<ul>
+<li>默认请求路径（注意如果路径为 /* 则默认不会进入项目的index页）</li>
+</ul>
+<p><img src="/images/pasted-17.png" alt="upload successful"></p>
+<ul>
+<li>指定后缀或前缀</li>
+</ul>
+<p><img src="/images/pasted-19.png" alt="upload successful"></p>
+<ul>
+<li><p>扩展<br>  优先级问题：<br>  指定了固有的映射路径优先级最高，如果找不到就会走默认的处理请求</p>
+<p>  解释：<br>  如果一个Servlet映射为/* 而另一个映射为/hello 则运行程序后首先进入的是/<em>的页面 输入路径 /hello 后 (固有思想是/hello也属于 /</em> ) 是会进入到/hello映射对应的Servlet程序中的，而不是在原来的/*的页面上<br>  也就是：精确 &gt; 全局</p>
+</li>
+</ul>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ END ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">Author: </span><span class="copyright-author__value"><a href="https://zhihuali.cn">Zhihua Li</a></span></div><div class="copyright-link"><span class="copyright-link__name">Link: </span><span class="copyright-link__value"><a href="https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/">https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">Copyright: </span><span class="copyright-notice__value">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> unless stating additionally</span></div></div><nav class="post-paginator paginator"><div class="paginator-next"><a class="paginator-next__link" href="/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/"><span class="paginator-prev__text">【已解决】关于admin插入图片后裂图情况</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">Catalog</span><span class="sidebar-nav-ov">Overview</span></div><section class="sidebar-toc"></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">hello world</p></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2020</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Zhihua Li</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v5.0.2</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.1.1</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.1.1"></script><script src="/js/stun-boot.js?v=2.1.1"></script><script src="/js/scroll.js?v=2.1.1"></script><script src="/js/header.js?v=2.1.1"></script><script src="/js/sidebar.js?v=2.1.1"></script></body></html>
