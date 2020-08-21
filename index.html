@@ -28,34 +28,37 @@ var CONFIG = {
 };
 
 window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="" type="application/atom+xml">
-</head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">menu.主页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">menu.时间轴</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">menu.分类</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title"></div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/">Servlet的学习（一）</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2020-08-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2020-08-21</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>1.Servlet是开发动态web的一门技术<br>2.Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：</p>
+</head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">menu.主页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">menu.时间轴</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">menu.分类</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title"></div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/">Servlet的学习（一）</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2020-08-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2020-08-21</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>1、Servlet是开发动态web的一门技术<br>2、Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：</p>
 <ul>
 <li>编写一个类，实现Servlet接口</li>
 <li>将开发好的java类部署到web服务器中</li>
 </ul>
-<p>综上所述 将实现了Servlet接口的java程序 称为Servlet</p>
-<p>3.Servlet程序的书写步骤：</p>
-<pre><code>1.构建一个普通的maven项目，删除里面的src目录，这个空的工程就是Maven主工程 在学习过程中可以再新建多个子项目 此时就可以使用模板来构建子工程</code></pre>
+<p>综上所述 将<strong>实现了Servlet接口的java程序 称为Servlet</strong></p>
+<p>3、Servlet程序的书写步骤：</p>
+<ol>
+<li>构建一个普通的maven项目，删除里面的src目录，这个空的工程就是Maven主工程 在学习过程中可以再新建多个子项目 此时就可以使用模板来构建子工程</li>
+</ol>
 <p><img src="/images/pasted-11.png" alt="upload successful"></p>
-<pre><code>2.Maven中子项目可以使用父项目中的依赖
-
-3.Maven环境优化
-     1.将xml中的web.xml处内容改为</code></pre>
+<p>2.Maven中子项目可以使用父项目中的依赖</p>
+<p>3.Maven环境优化<br>     1.将xml中的web.xml处内容改为</p>
 <figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">web-app</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">version</span>=<span class="string">&quot;4.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">web-app</span>&gt;</span></span><br><span class="line">    </span><br></pre></td></tr></table></div></figure>
 
-<pre><code>    2.为模板构建的web子工程中添加java和resource文件夹
-4.生成一个Servlet类
-
-   1.编写一个普通类
-
-   2.实现Servlet接口
-         Servlet接口有两个默认的实现类：HttpServlet和GenericServlet所以只需要继承即可
-  3.添加Servlet映射/在web.xml中注册
-  4.配置Tomcat</code></pre>
+<p>​    2.为模板构建的web子工程中添加java和resource文件夹</p>
+<p>​    3.生成一个Servlet类</p>
+<ol>
+<li><ol>
+<li>编写一个普通类</li>
+<li>实现Servlet接口 （<strong>Sun API 提供了两个实现了Servlet接口的实现类：HttpServlet和GenericServlet 而我们在写自己的Servlet类时 只需要继承即可</strong>）</li>
+<li>添加Servlet映射/在web.xml中注册</li>
+<li>配置Tomcat</li>
+</ol>
+</li>
+</ol>
 <p><img src="/images/pasted-12.png" alt="upload successful"></p>
-<pre><code>5.启动测试</code></pre>
-<p>4.Servlet原理<br>由Web服务器调用 Web服务器会在收到浏览器请求后进行如下步骤：<br><img src="/images/pasted-13.png" alt="upload successful"></p>
-<p>5.Mapping问题</p>
+<p>​          5.启动测试       </p>
+<p>4、Servlet原理</p>
+<p>由Web服务器调用 Web服务器会在收到浏览器请求后进行如下步骤：<br><img src="/images/pasted-13.png" alt="upload successful"></p>
+<p>5、Mapping问题</p>
 <ul>
 <li>一个Servlet可以指定一个映射路径</li>
 </ul>
