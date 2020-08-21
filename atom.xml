@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-20T11:32:47.683Z</updated>
+  <updated>2020-08-21T05:32:43.170Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【已解决】关于admin插入图片后裂图情况</title>
+    <link href="https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/"/>
+    <id>https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/</id>
+    <published>2020-08-21T01:45:11.000Z</published>
+    <updated>2020-08-21T05:32:43.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在使用插件Hexo-admin插入图片时，会发现这样的情况&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;而右侧框中则会显示且并不会出现具体的图片&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/i</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【已解决】关于个人网站404问题</title>
+    <link href="https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/"/>
+    <id>https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/</id>
+    <published>2020-08-20T11:33:59.000Z</published>
+    <updated>2020-08-21T05:32:48.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>在绑定域名后<br>1、<br>需要将_config.yml中的<br><img src="/images/pasted-1.png" alt="upload successful"><br>url 改成自己的域名</p><p>2、需要在github中的setting修改配置</p><p><img src="/images/pasted-5.png" alt="upload successful"></p><p>改动上述两个位置 404成功解决</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在绑定域名后&lt;br&gt;1、&lt;br&gt;需要将_config.yml中的&lt;br&gt;&lt;img src=&quot;/images/pasted-1.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;url 改成自己的域名&lt;/p&gt;
+&lt;p&gt;2、需要在github中的setting修改</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>[面试-01]网站是如何被访问的</title>
