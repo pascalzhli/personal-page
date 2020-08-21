@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-21T16:13:14.817Z</updated>
+  <updated>2020-08-21T16:49:05.919Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2020-08-21T16:13:14.593Z</published>
-    <updated>2020-08-21T16:13:14.817Z</updated>
+    <updated>2020-08-21T16:49:05.919Z</updated>
     
-    <content type="html"><![CDATA[<p>记录一些我学到hexo命令</p><a id="more"></a>        <h2 id="Hexo学到的东西"   >          <a href="#Hexo学到的东西" class="heading-link"><i class="fas fa-link"></i></a>Hexo学到的东西</h2>              <h3 id="hexo命令1-本地部署"   >          <a href="#hexo命令1-本地部署" class="heading-link"><i class="fas fa-link"></i></a>hexo命令1-本地部署</h3>      <pre><code class="bash">$ hexo init &lt;folder&gt; #init是初始化一个hexo文件夹</code></pre><pre><code class="bash">$ cd &lt;folder&gt;  #注意一定要打开文件夹才能进行部署</code></pre><pre><code class="bash">$ npm install    #部署之前进行安装</code></pre><pre><code class="bash">$ hexo g   #生成静态网页</code></pre><pre><code class="bash">$ hexo s      #启动服务器 启动之后会默认给一个网址进去就是我们部署的网页了</code></pre>        <h3 id="更换hexo主题"   >          <a href="#更换hexo主题" class="heading-link"><i class="fas fa-link"></i></a>更换hexo主题</h3>      <pre><code class="bash"> 把你想更换的主题放在themes目录下。官网有很多好看的主题：https://hexo.io/themes/ 然后修改站点目录下的_config.yml配置文件找到themes: landscape(默认主题)修改成你在themes下放好的主题，就完成了</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>记录一些我学到hexo命令</p><a id="more"></a>        <h2 id="Hexo学到的东西"   >          <a href="#Hexo学到的东西" class="heading-link"><i class="fas fa-link"></i></a>Hexo学到的东西</h2>              <h3 id="hexo命令1-本地部署"   >          <a href="#hexo命令1-本地部署" class="heading-link"><i class="fas fa-link"></i></a>hexo命令1-本地部署</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt; <span class="comment">#init是初始化一个hexo文件夹</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;  <span class="comment">#注意一定要打开文件夹才能进行部署</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install    <span class="comment">#部署之前进行安装</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g   <span class="comment">#生成静态网页</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s      <span class="comment">#启动服务器 启动之后会默认给一个网址进去就是我们部署的网页了</span></span><br></pre></td></tr></table></div></figure>        <h3 id="更换hexo主题"   >          <a href="#更换hexo主题" class="heading-link"><i class="fas fa-link"></i></a>更换hexo主题</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> 把你想更换的主题放在themes目录下。官网有很多好看的主题：https://hexo.io/themes/</span><br><span class="line"></span><br><span class="line"> 然后修改站点目录下的_config.yml配置文件找到themes: landscape(默认主题)</span><br><span class="line"></span><br><span class="line">修改成你在themes下放好的主题，就完成了</span><br></pre></td></tr></table></div></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;记录一些我学到hexo命令&lt;/p&gt;</summary>
@@ -41,8 +41,8 @@
     <title>Servlet的学习（一）</title>
     <link href="https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
     <id>https://zhihuali.cn/2020/08/21/Servlet%E7%9A%84%E5%AD%A6%E4%B9%A0/</id>
-    <published>2020-08-21T07:34:48.000Z</published>
-    <updated>2020-08-21T14:45:15.412Z</updated>
+    <published>2020-08-21T07:34:00.000Z</published>
+    <updated>2020-08-21T16:54:24.535Z</updated>
     
     <content type="html"><![CDATA[<p>1、Servlet是开发动态web的一门技术<br>2、Sun提供了一个名为Servlet的接口 若想开发Servlet程序只需要完成两个小步骤：</p><ul><li>编写一个类，实现Servlet接口</li><li>将开发好的java类部署到web服务器中</li></ul><p>综上所述 将<strong>实现了Servlet接口的java程序 称为Servlet</strong></p><a id="more"></a><p>3、Servlet程序的书写步骤：</p><ol><li>构建一个普通的maven项目，删除里面的src目录，这个空的工程就是Maven主工程 在学习过程中可以再新建多个子项目 此时就可以使用模板来构建子工程</li></ol><p><img src="/images/pasted-11.png" alt="upload successful"></p><p>2.Maven中子项目可以使用父项目中的依赖</p><p>3.Maven环境优化<br>     1.将xml中的web.xml处内容改为</p><figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">web-app</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">version</span>=<span class="string">&quot;4.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">web-app</span>&gt;</span></span><br><span class="line">    </span><br></pre></td></tr></table></div></figure><p>​    2.为模板构建的web子工程中添加java和resource文件夹</p><p>​    3.生成一个Servlet类</p><ol><li><ol><li>编写一个普通类</li><li>实现Servlet接口 （<strong>Sun API 提供了两个实现了Servlet接口的实现类：HttpServlet和GenericServlet 而我们在写自己的Servlet类时 只需要继承即可</strong>）</li><li>添加Servlet映射/在web.xml中注册</li><li>配置Tomcat</li></ol></li></ol><p><img src="/images/pasted-12.png" alt="upload successful"></p><p>​          5.启动测试       </p><p>4、Servlet原理</p><p>由Web服务器调用 Web服务器会在收到浏览器请求后进行如下步骤：<br><img src="/images/pasted-13.png" alt="upload successful"></p><p>5、Mapping问题</p><ul><li>一个Servlet可以指定一个映射路径</li></ul><p><img src="/images/pasted-14.png" alt="upload successful"></p><ul><li>一个Servlet可以指定多个映射路径</li></ul><p><img src="/images/pasted-15.png" alt="upload successful"></p><ul><li>一个Servlet可以指定通用映射路径</li></ul><p><img src="/images/pasted-16.png" alt="upload successful"></p><ul><li>默认请求路径（注意如果路径为 /* 则默认不会进入项目的index页）</li></ul><p><img src="/images/pasted-17.png" alt="upload successful"></p><ul><li>指定后缀或前缀</li></ul><p><img src="/images/pasted-19.png" alt="upload successful"></p><ul><li><p>扩展<br>优先级问题：<br>  指定了固有的映射路径优先级最高，如果找不到就会走默认的处理请求</p><p>  解释：<br>  如果一个Servlet映射为/* 而另一个映射为/hello 则运行程序后首先进入的是/<em>的页面 输入路径 /hello 后 (固有思想是/hello也属于 /</em> ) 是会进入到/hello映射对应的Servlet程序中的，而不是在原来的/*的页面上<br>  也就是：精确 &gt; 全局</p></li></ul>]]></content>
     
@@ -56,6 +56,10 @@
     
     
     
+    <category term="JavaWeb" scheme="https://zhihuali.cn/categories/JavaWeb/"/>
+    
+    
+    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
     
   </entry>
   
@@ -64,12 +68,20 @@
     <link href="https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/"/>
     <id>https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/</id>
     <published>2020-08-21T05:32:43.168Z</published>
-    <updated>2020-08-21T16:20:31.187Z</updated>
+    <updated>2020-08-21T16:49:00.836Z</updated>
     
-    <content type="html"><![CDATA[<p>title: 【已解决】关于admin插入图片后裂图情况<br>author: Zhihua Li<br>date: 2020-08-21 09:45:11</p><p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><a id="more"></a><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
+    <content type="html"><![CDATA[<p>title: 【已解决】关于admin插入图片后裂图情况<br>author: Zhihua Li<br>date: 2020-08-21 09:45:11</p><p>tags:</p><ul><li><p>hexo</p><p>categories:</p></li><li><p>hexo</p></li></ul><p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><a id="more"></a><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;title: 【已解决】关于admin插入图片后裂图情况&lt;br&gt;author: Zhihua Li&lt;br&gt;date: 2020-08-21 09:45:11&lt;/p&gt;
+&lt;p&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;hexo&lt;/p&gt;
+&lt;p&gt;categories:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hexo&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;在使用插件Hexo-admin插入图片时，会发现这样的情况&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;而右侧框中则会显示且并不会出现具体的图片&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/pasted-4.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
