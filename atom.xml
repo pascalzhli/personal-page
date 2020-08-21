@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-21T14:45:15.412Z</updated>
+  <updated>2020-08-21T16:13:14.817Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo的使用</title>
+    <link href="https://zhihuali.cn/2020/08/22/hexo-%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://zhihuali.cn/2020/08/22/hexo-%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-08-21T16:13:14.593Z</published>
+    <updated>2020-08-21T16:13:14.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一些我学到hexo命令</p><a id="more"></a>        <h2 id="Hexo学到的东西"   >          <a href="#Hexo学到的东西" class="heading-link"><i class="fas fa-link"></i></a>Hexo学到的东西</h2>              <h3 id="hexo命令1-本地部署"   >          <a href="#hexo命令1-本地部署" class="heading-link"><i class="fas fa-link"></i></a>hexo命令1-本地部署</h3>      <pre><code class="bash">$ hexo init &lt;folder&gt; #init是初始化一个hexo文件夹</code></pre><pre><code class="bash">$ cd &lt;folder&gt;  #注意一定要打开文件夹才能进行部署</code></pre><pre><code class="bash">$ npm install    #部署之前进行安装</code></pre><pre><code class="bash">$ hexo g   #生成静态网页</code></pre><pre><code class="bash">$ hexo s      #启动服务器 启动之后会默认给一个网址进去就是我们部署的网页了</code></pre>        <h3 id="更换hexo主题"   >          <a href="#更换hexo主题" class="heading-link"><i class="fas fa-link"></i></a>更换hexo主题</h3>      <pre><code class="bash"> 把你想更换的主题放在themes目录下。官网有很多好看的主题：https://hexo.io/themes/ 然后修改站点目录下的_config.yml配置文件找到themes: landscape(默认主题)修改成你在themes下放好的主题，就完成了</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;记录一些我学到hexo命令&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://zhihuali.cn/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://zhihuali.cn/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Servlet的学习（一）</title>
@@ -39,16 +60,17 @@
   </entry>
   
   <entry>
-    <title>【已解决】关于admin插入图片后裂图情况</title>
+    <title></title>
     <link href="https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/"/>
     <id>https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/</id>
-    <published>2020-08-21T01:45:11.000Z</published>
-    <updated>2020-08-21T14:46:11.325Z</updated>
+    <published>2020-08-21T05:32:43.168Z</published>
+    <updated>2020-08-21T16:20:31.187Z</updated>
     
-    <content type="html"><![CDATA[<p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><a id="more"></a><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
+    <content type="html"><![CDATA[<p>title: 【已解决】关于admin插入图片后裂图情况<br>author: Zhihua Li<br>date: 2020-08-21 09:45:11</p><p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><a id="more"></a><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;在使用插件Hexo-admin插入图片时，会发现这样的情况&lt;/p&gt;
+    <summary type="html">&lt;p&gt;title: 【已解决】关于admin插入图片后裂图情况&lt;br&gt;author: Zhihua Li&lt;br&gt;date: 2020-08-21 09:45:11&lt;/p&gt;
+&lt;p&gt;在使用插件Hexo-admin插入图片时，会发现这样的情况&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;而右侧框中则会显示且并不会出现具体的图片&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/pasted-4.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
 &lt;p&gt;其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片&lt;/p&gt;</summary>
@@ -101,7 +123,7 @@
     <link href="https://zhihuali.cn/2020/08/19/HelloMyBlog/"/>
     <id>https://zhihuali.cn/2020/08/19/HelloMyBlog/</id>
     <published>2020-08-19T12:38:00.000Z</published>
-    <updated>2020-08-20T08:52:59.411Z</updated>
+    <updated>2020-08-21T15:43:46.578Z</updated>
     
     <content type="html"><![CDATA[        <h1 id="this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best"   >          <a href="#this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best" class="heading-link"><i class="fas fa-link"></i></a>this is my first blog and I will try my best to show you something best.</h1>      <p><img src="/images/pasted-3.png" alt="upload successful"></p>]]></content>
     
@@ -115,25 +137,7 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zhihuali.cn/2020/08/19/hello-world/"/>
-    <id>https://zhihuali.cn/2020/08/19/hello-world/</id>
-    <published>2020-08-19T04:50:44.710Z</published>
-    <updated>2020-08-19T05:38:36.948Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <span class="exturl"><a class="exturl__link"   href="https://hexo.io/" >Hexo</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>! This is your very first post. Check <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/" >documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> or you can ask me on <span class="exturl"><a class="exturl__link"   href="https://github.com/hexojs/hexo/issues" >GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>.</p>        <h2 id="Hello-Hexo"   >          <a href="#Hello-Hexo" class="heading-link"><i class="fas fa-link"></i></a>Hello Hexo</h2>              <h2 id="Quick-Start"   >          <a href="#Quick-Start" class="heading-link"><i class="fas fa-link"></i></a>Quick Start</h2>              <h3 id="Create-a-new-post"   >          <a href="#Create-a-new-post" class="heading-link"><i class="fas fa-link"></i></a>Create a new post</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/writing.html" >Writing</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Run-server"   >          <a href="#Run-server" class="heading-link"><i class="fas fa-link"></i></a>Run server</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/server.html" >Server</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Generate-static-files"   >          <a href="#Generate-static-files" class="heading-link"><i class="fas fa-link"></i></a>Generate static files</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/generating.html" >Generating</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Deploy-to-remote-sites"   >          <a href="#Deploy-to-remote-sites" class="heading-link"><i class="fas fa-link"></i></a>Deploy to remote sites</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;span class=&quot;exturl&quot;&gt;&lt;a class=&quot;exturl__link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;/a&gt;&lt;span class=&quot;exturl__icon&quot;&gt;&lt;i class=&quot;fas fa-ex</summary>
-      
-    
-    
+    <category term="好" scheme="https://zhihuali.cn/categories/%E5%A5%BD/"/>
     
     
   </entry>
