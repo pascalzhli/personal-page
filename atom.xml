@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-21T17:00:28.643Z</updated>
+  <updated>2020-08-21T17:30:05.270Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【已解决】Hexo导航栏添加新分栏问题</title>
+    <link href="https://zhihuali.cn/2020/08/22/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Hexo%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%88%86%E6%A0%8F%E9%97%AE%E9%A2%98/"/>
+    <id>https://zhihuali.cn/2020/08/22/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Hexo%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%88%86%E6%A0%8F%E9%97%AE%E9%A2%98/</id>
+    <published>2020-08-21T17:20:00.000Z</published>
+    <updated>2020-08-21T17:30:05.270Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于上方这些分栏的添加 主题中默认只开启主页和时间轴<br><img src="/images/pasted-20.png" alt="upload successful"></p><p>如果想开启新的分栏 首先需要在博客项目的根目录下的_config.yml处修改</p><p><img src="/images/pasted-23.png" alt="upload successful"></p><p>将注解取消后 需要在根目录下打开 git bash<br>并输入hexo new page tags （直接输入要添加分栏后对应的路径文件夹）</p><p>该命令会自动在下图路径中生成新的文件夹</p><p><img src="/images/pasted-24.png" alt="upload successful"></p><p>在index.md中添加</p><p><img src="/images/pasted-25.png" alt="upload successful"></p><p>即可实现新分栏的添加并可以正常使用</p><p><img src="/images/pasted-27.png" alt="upload successful"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;关于上方这些分栏的添加 主题中默认只开启主页和时间轴&lt;br&gt;&lt;img src=&quot;/images/pasted-20.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果想开启新的分栏 首先需要在博客项目的根目录下的_config.yml处修改&lt;/p</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo的使用</title>
