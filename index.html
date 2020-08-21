@@ -40,28 +40,18 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.0.2"><lin
 <pre><code>2.Maven中子项目可以使用父项目中的依赖
 
 3.Maven环境优化
+     1.将xml中的web.xml处内容改为</code></pre>
+<figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">web-app</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;</span></span></span><br><span class="line"><span class="tag">         <span class="attr">version</span>=<span class="string">&quot;4.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">web-app</span>&gt;</span></span><br><span class="line">    </span><br></pre></td></tr></table></div></figure>
 
-   1.将xml中的web.xml处内容改为
-
-   &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;
-     xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-     xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;
-     version=&quot;4.0&quot;&gt;
-&lt;/web-app&gt;
-
-   2.为模板构建的web子工程中添加java和resource文件夹
-
+<pre><code>    2.为模板构建的web子工程中添加java和resource文件夹
 4.生成一个Servlet类
 
    1.编写一个普通类
 
    2.实现Servlet接口
-  Servlet接口有两个默认的实现类：HttpServlet和GenericServlet所以只需要继承即可
-
-   3.添加Servlet映射/在web.xml中注册
-
-   4.配置Tomcat</code></pre>
+         Servlet接口有两个默认的实现类：HttpServlet和GenericServlet所以只需要继承即可
+  3.添加Servlet映射/在web.xml中注册
+  4.配置Tomcat</code></pre>
 <p><img src="/images/pasted-12.png" alt="upload successful"></p>
 <pre><code>5.启动测试</code></pre>
 <p>4.Servlet原理<br>由Web服务器调用 Web服务器会在收到浏览器请求后进行如下步骤：<br><img src="/images/pasted-13.png" alt="upload successful"></p>
@@ -87,7 +77,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.0.2"><lin
 </ul>
 <p><img src="/images/pasted-19.png" alt="upload successful"></p>
 <ul>
-<li><p>扩展<br>  优先级问题：<br>  指定了固有的映射路径优先级最高，如果找不到就会走默认的处理请求</p>
+<li><p>扩展<br>优先级问题：<br>  指定了固有的映射路径优先级最高，如果找不到就会走默认的处理请求</p>
 <p>  解释：<br>  如果一个Servlet映射为/* 而另一个映射为/hello 则运行程序后首先进入的是/<em>的页面 输入路径 /hello 后 (固有思想是/hello也属于 /</em> ) 是会进入到/hello映射对应的Servlet程序中的，而不是在原来的/*的页面上<br>  也就是：精确 &gt; 全局</p>
 </li>
 </ul>
