@@ -113,7 +113,7 @@
     <link href="https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/"/>
     <id>https://zhihuali.cn/2020/08/20/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99404%E9%97%AE%E9%A2%98/</id>
     <published>2020-08-20T11:33:00.000Z</published>
-    <updated>2020-08-21T16:56:57.954Z</updated>
+    <updated>2020-08-22T03:05:53.990Z</updated>
     
     <content type="html"><![CDATA[<p>在绑定域名后<br>1、<br>需要将_config.yml中的<br><img src="/images/pasted-1.png" alt="upload successful"><br>url 改成自己的域名</p><a id="more"></a><p>2、需要在github中的setting修改配置</p><p><img src="/images/pasted-5.png" alt="upload successful"></p><p>改动上述两个位置 404成功解决</p>]]></content>
     
@@ -122,10 +122,10 @@
     
     
     
-    <category term="JavaWeb" scheme="https://zhihuali.cn/categories/JavaWeb/"/>
+    <category term="Hexo" scheme="https://zhihuali.cn/categories/Hexo/"/>
     
     
-    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
+    <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
     
   </entry>
   
