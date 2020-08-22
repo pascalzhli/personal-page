@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-22T02:58:21.676Z</updated>
+  <updated>2020-08-22T08:37:04.819Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Servlet（二）</title>
+    <link href="https://zhihuali.cn/2020/08/22/Servlet%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>https://zhihuali.cn/2020/08/22/Servlet%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
+    <published>2020-08-22T08:36:00.000Z</published>
+    <updated>2020-08-22T08:37:04.819Z</updated>
+    
+    <content type="html"><![CDATA[ <servlet>        <servlet-name>hello</servlet-name>        <servlet-class>indi.zhihuali.HelloServlet</servlet-class>    </servlet>    <servlet-mapping>        <servlet-name>hello</servlet-name>        <url-pattern>/hello</url-pattern>    </servlet-mapping><pre><code>&lt;servlet&gt;    &lt;servlet-name&gt;hello2&lt;/servlet-name&gt;    &lt;servlet-class&gt;indi.zhihuali.HelloServlet2&lt;/servlet-class&gt;&lt;/servlet&gt;&lt;servlet-mapping&gt;    &lt;servlet-name&gt;hello2&lt;/servlet-name&gt;    &lt;url-pattern&gt;/hello2&lt;/url-pattern&gt;&lt;/servlet-mapping&gt;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html"> &lt;servlet&gt;
+        &lt;servlet-name&gt;hello&lt;/servlet-name&gt;
+        &lt;servlet-class&gt;indi.zhihuali.HelloServlet&lt;/servlet-class&gt;
+    &lt;/servlet&gt;
+    &lt;</summary>
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="https://zhihuali.cn/categories/JavaWeb/"/>
+    
+    
+    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>【已解决】Hexo导航栏添加新分栏问题</title>
