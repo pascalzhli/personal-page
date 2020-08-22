@@ -4,7 +4,14 @@
   <url>
     <loc>https://zhihuali.cn/2020/08/22/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Hexo%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%88%86%E6%A0%8F%E9%97%AE%E9%A2%98/</loc>
     
-    <lastmod>2020-08-21</lastmod>
+    <lastmod>2020-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    
+    <lastmod>2020-08-22</lastmod>
     
   </url>
   
@@ -24,13 +31,6 @@
   
   <url>
     <loc>https://zhihuali.cn/categories/index.html</loc>
-    
-    <lastmod>2020-08-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2020-08-21</lastmod>
     
@@ -118,14 +118,14 @@
 
   
   <url>
-    <loc>https://zhihuali.cn/categories/hexo/</loc>
+    <loc>https://zhihuali.cn/categories/JavaWeb/</loc>
     <lastmod>2020-08-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhihuali.cn/categories/JavaWeb/</loc>
+    <loc>https://zhihuali.cn/categories/Hexo/</loc>
     <lastmod>2020-08-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

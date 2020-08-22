@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-21T17:30:57.010Z</updated>
+  <updated>2020-08-22T02:58:21.676Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhihuali.cn/2020/08/22/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Hexo%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%88%86%E6%A0%8F%E9%97%AE%E9%A2%98/"/>
     <id>https://zhihuali.cn/2020/08/22/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Hexo%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%88%86%E6%A0%8F%E9%97%AE%E9%A2%98/</id>
     <published>2020-08-21T17:20:00.000Z</published>
-    <updated>2020-08-21T17:30:57.010Z</updated>
+    <updated>2020-08-22T02:58:21.676Z</updated>
     
     <content type="html"><![CDATA[<p>关于上方这些分栏的添加 主题中默认只开启主页和时间轴<br><img src="/images/pasted-20.png" alt="upload successful"></p><a id="more"></a><p>如果想开启新的分栏 首先需要在博客项目的根目录下的_config.yml处修改</p><p><img src="/images/pasted-23.png" alt="upload successful"></p><p>将注解取消后 需要在根目录下打开 git bash<br>并输入hexo new page tags （直接输入要添加分栏后对应的路径文件夹）</p><p>该命令会自动在下图路径中生成新的文件夹</p><p><img src="/images/pasted-24.png" alt="upload successful"></p><p>在index.md中添加</p><p><img src="/images/pasted-25.png" alt="upload successful"></p><p>即可实现新分栏的添加并可以正常使用</p><p><img src="/images/pasted-27.png" alt="upload successful"></p>]]></content>
     
@@ -29,6 +29,8 @@
     <summary type="html">&lt;p&gt;关于上方这些分栏的添加 主题中默认只开启主页和时间轴&lt;br&gt;&lt;img src=&quot;/images/pasted-20.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;</summary>
     
     
+    
+    <category term="Hexo" scheme="https://zhihuali.cn/categories/Hexo/"/>
     
     
     <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
@@ -40,7 +42,7 @@
     <link href="https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://zhihuali.cn/2020/08/22/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2020-08-21T16:13:00.000Z</published>
-    <updated>2020-08-21T17:00:28.643Z</updated>
+    <updated>2020-08-22T02:23:08.455Z</updated>
     
     <content type="html"><![CDATA[<p>记录一些我学到hexo命令</p><a id="more"></a>        <h2 id="Hexo学到的东西"   >          <a href="#Hexo学到的东西" class="heading-link"><i class="fas fa-link"></i></a>Hexo学到的东西</h2>              <h3 id="hexo命令1-本地部署"   >          <a href="#hexo命令1-本地部署" class="heading-link"><i class="fas fa-link"></i></a>hexo命令1-本地部署</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt; <span class="comment">#init是初始化一个hexo文件夹</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;  <span class="comment">#注意一定要打开文件夹才能进行部署</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install    <span class="comment">#部署之前进行安装</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g   <span class="comment">#生成静态网页</span></span><br></pre></td></tr></table></div></figure><figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s      <span class="comment">#启动服务器 启动之后会默认给一个网址进去就是我们部署的网页了</span></span><br></pre></td></tr></table></div></figure>        <h3 id="更换hexo主题"   >          <a href="#更换hexo主题" class="heading-link"><i class="fas fa-link"></i></a>更换hexo主题</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> 把你想更换的主题放在themes目录下。官网有很多好看的主题：https://hexo.io/themes/</span><br><span class="line"></span><br><span class="line"> 然后修改站点目录下的_config.yml配置文件找到themes: landscape(默认主题)</span><br><span class="line"></span><br><span class="line">修改成你在themes下放好的主题，就完成了</span><br></pre></td></tr></table></div></figure>]]></content>
     
@@ -49,7 +51,7 @@
     
     
     
-    <category term="hexo" scheme="https://zhihuali.cn/categories/hexo/"/>
+    <category term="Hexo" scheme="https://zhihuali.cn/categories/Hexo/"/>
     
     
     <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
