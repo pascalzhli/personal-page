@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-23T06:34:01.683Z</updated>
+  <updated>2020-08-23T06:35:31.840Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【面试-02】请求转发与重定向</title>
+    <link href="https://zhihuali.cn/2020/08/23/%E3%80%90%E9%9D%A2%E8%AF%95-02%E3%80%91%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/"/>
+    <id>https://zhihuali.cn/2020/08/23/%E3%80%90%E9%9D%A2%E8%AF%95-02%E3%80%91%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/</id>
+    <published>2020-08-23T06:35:00.000Z</published>
+    <updated>2020-08-23T06:35:31.840Z</updated>
+    
+    <content type="html"><![CDATA[        <h5 id="【面试题】重定向和转发的区别"   >          <a href="#【面试题】重定向和转发的区别" class="heading-link"><i class="fas fa-link"></i></a>**【面试题】重定向和转发的区别 **</h5>      <p>相同点：页面都会实现跳转</p><p>不同点：</p><ul><li>请求转发时 url地址栏不会产生变化；而重定向时 url地址栏会发生变化</li><li>请求转发状态码：302 </li><li>重定向状态码：307</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+        &lt;h5 id=&quot;【面试题】重定向和转发的区别&quot;   &gt;
+          &lt;a href=&quot;#【面试题】重定向和转发的区别&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;**【面试题】重定向和转发的区</summary>
+      
+    
+    
+    
+    <category term="面试" scheme="https://zhihuali.cn/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>Response &amp;&amp; Request </title>
