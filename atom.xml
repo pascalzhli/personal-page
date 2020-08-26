@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-26T16:27:24.564Z</updated>
+  <updated>2020-08-26T16:28:15.727Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhihuali.cn/2020/08/27/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8ETomcat%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/"/>
     <id>https://zhihuali.cn/2020/08/27/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8ETomcat%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</id>
     <published>2020-08-26T16:26:00.000Z</published>
-    <updated>2020-08-26T16:27:24.564Z</updated>
+    <updated>2020-08-26T16:28:15.727Z</updated>
     
     <content type="html"><![CDATA[<p>报错：</p><figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from URL [file:/F:/tomcat/apache-tomcat-9.0.12/webapps/hx/WEB-INF/classes/spring-mybatis.xml]; nested exception is com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: 3 字节的 UTF-8 序列的字节 3 无效。</span><br></pre></td></tr></table></div></figure><p>解决办法:</p><p>将spring-mybatis.xml的xml复制到 文本.txt 另存为一份编码为utf-8的复制回去到xml就行了</p>]]></content>
     
@@ -33,6 +33,10 @@
       
     
     
+    
+    <category term="JavaWeb" scheme="https://zhihuali.cn/categories/JavaWeb/"/>
+    
+    <category term="Exceptions" scheme="https://zhihuali.cn/categories/JavaWeb/Exceptions/"/>
     
     
     <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
