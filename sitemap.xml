@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhihuali.cn/2020/08/25/MVC/</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhihuali.cn/2020/08/27/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8ETomcat%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2020-08-27</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://zhihuali.cn/2020/08/27/SpringMVC/</loc>
     
     <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhihuali.cn/2020/08/25/MVC/</loc>
-    
-    <lastmod>2020-08-26</lastmod>
     
   </url>
   
