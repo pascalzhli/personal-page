@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-27T13:56:56.553Z</updated>
+  <updated>2020-08-28T02:17:42.736Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【SpringMVC】乱码问题</title>
+    <link href="https://zhihuali.cn/2020/08/28/%E3%80%90SpringMVC%E3%80%91%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+    <id>https://zhihuali.cn/2020/08/28/%E3%80%90SpringMVC%E3%80%91%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</id>
+    <published>2020-08-28T02:16:00.000Z</published>
+    <updated>2020-08-28T02:17:42.736Z</updated>
+    
+    <content type="html"><![CDATA[<p>在web.xml中添加</p><figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">filter</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">filter-name</span>&gt;</span>encoding<span class="tag">&lt;/<span class="name">filter-name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">filter-class</span>&gt;</span>org.springframework.web.filter.CharacterEncodingFilter<span class="tag">&lt;/<span class="name">filter-class</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">init-param</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">param-name</span>&gt;</span>encoding<span class="tag">&lt;/<span class="name">param-name</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">param-value</span>&gt;</span>utf-8<span class="tag">&lt;/<span class="name">param-value</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">init-param</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">filter</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">filter-mapping</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">filter-name</span>&gt;</span>encoding<span class="tag">&lt;/<span class="name">filter-name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url-pattern</span>&gt;</span>/*<span class="tag">&lt;/<span class="name">url-pattern</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">filter-mapping</span>&gt;</span></span><br></pre></td></tr></table></div></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在web.xml中添加&lt;/p&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;div class=&quot;table-container&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;</summary>
+      
+    
+    
+    
+    <category term="SpringMVC" scheme="https://zhihuali.cn/categories/SpringMVC/"/>
+    
+    
+    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>【SpringMVC】接受请求参数及数据回显</title>
@@ -474,28 +499,6 @@
     
     
     <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MyFirstBlog</title>
-    <link href="https://zhihuali.cn/2020/08/19/HelloMyBlog/"/>
-    <id>https://zhihuali.cn/2020/08/19/HelloMyBlog/</id>
-    <published>2020-08-19T12:38:00.000Z</published>
-    <updated>2020-08-21T16:58:59.073Z</updated>
-    
-    <content type="html"><![CDATA[        <h1 id="this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best"   >          <a href="#this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best" class="heading-link"><i class="fas fa-link"></i></a>this is my first blog and I will try my best to show you something best.</h1>      <p><img src="/images/pasted-3.png" alt="upload successful"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">
-        &lt;h1 id=&quot;this-is-my-first-blog-and-I-will-try-my-best-to-show-you-something-best&quot;   &gt;
-          &lt;a href=&quot;#this-is-my-first-blog-and-</summary>
-      
-    
-    
-    
     
   </entry>
   
