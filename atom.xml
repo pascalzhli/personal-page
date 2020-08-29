@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-28T02:17:42.736Z</updated>
+  <updated>2020-08-29T02:59:49.833Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【已解决】关于xml文件中的小异常</title>
+    <link href="https://zhihuali.cn/2020/08/29/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Exml%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%B0%8F%E5%BC%82%E5%B8%B8/"/>
+    <id>https://zhihuali.cn/2020/08/29/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Exml%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%B0%8F%E5%BC%82%E5%B8%B8/</id>
+    <published>2020-08-29T02:57:00.000Z</published>
+    <updated>2020-08-29T02:59:49.833Z</updated>
+    
+    <content type="html"><![CDATA[<p>此错误是由于XML文件的解析不正确造成的，因为在一个/某些标签之间存在奇怪和隐藏的字符。</p><p><img src="/images/pasted-65.png" alt="upload successful"></p><p>将搜有的换行删除重新回车即可解决</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;此错误是由于XML文件的解析不正确造成的，因为在一个/某些标签之间存在奇怪和隐藏的字符。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-65.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;将搜有的换行删除重新回车即可解决&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="Exceptions" scheme="https://zhihuali.cn/categories/Exceptions/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>【SpringMVC】乱码问题</title>
@@ -474,31 +498,6 @@
     
     
     <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【面试-01】网站是如何被访问的</title>
-    <link href="https://zhihuali.cn/2020/08/20/%E7%BD%91%E7%AB%99%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%BF%E9%97%AE%E7%9A%84/"/>
-    <id>https://zhihuali.cn/2020/08/20/%E7%BD%91%E7%AB%99%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E8%AE%BF%E9%97%AE%E7%9A%84/</id>
-    <published>2020-08-20T10:10:00.000Z</published>
-    <updated>2020-08-27T09:43:06.472Z</updated>
-    
-    <content type="html"><![CDATA[<p>当在浏览器中输入一个域名并回车时：<br>会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址</p><p><img src="/images/pasted-0.png" alt="upload successful"></p><p>若没有就去DNS服务器中寻找该域名对应的ip地址 找到就返回 找不到就返回找不到报错</p><p>1个ip可以对应多个域名</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;当在浏览器中输入一个域名并回车时：&lt;br&gt;会自动查找本机的 C:\Windows\System32\drivers\etc\hosts 配置文件中去寻找有没有输入的域名映射 如果有则直接返回对应的ip地址&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/pasted-0.</summary>
-      
-    
-    
-    
-    <category term="面试" scheme="https://zhihuali.cn/categories/%E9%9D%A2%E8%AF%95/"/>
-    
-    
-    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
     
   </entry>
   
