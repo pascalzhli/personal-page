@@ -6,7 +6,7 @@
   <link href="https://zhihuali.cn/atom.xml" rel="self"/>
   
   <link href="https://zhihuali.cn/"/>
-  <updated>2020-08-29T15:09:40.325Z</updated>
+  <updated>2020-08-29T15:24:19.865Z</updated>
   <id>https://zhihuali.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【已解决】NestedServletException</title>
+    <link href="https://zhihuali.cn/2020/08/29/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91NestedServletException/"/>
+    <id>https://zhihuali.cn/2020/08/29/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91NestedServletException/</id>
+    <published>2020-08-29T15:19:00.000Z</published>
+    <updated>2020-08-29T15:24:19.865Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight xml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: com/alibaba/fastjson/JSON</span><br><span class="line">    org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1054)</span><br><span class="line">    org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)</span><br><span class="line">    org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)</span><br><span class="line">    org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)</span><br><span class="line">    javax.servlet.http.HttpServlet.service(HttpServlet.java:634)</span><br><span class="line">    org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)</span><br><span class="line">    javax.servlet.http.HttpServlet.service(HttpServlet.java:741)</span><br><span class="line">    org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">    org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)</span><br><span class="line">    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)</span><br></pre></td></tr></table></div></figure><p><strong>遇到该异常</strong> </p><p><img src="/images/pasted-66.png" alt="upload successful"></p><p><img src="/images/pasted-67.png" alt="upload successful"><br><strong>将全部jar包添加进项目即可</strong></p><p><img src="/images/pasted-68.png" alt="upload successful"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight xml&quot;&gt;&lt;div class=&quot;table-container&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;li</summary>
+      
+    
+    
+    
+    <category term="Exceptions" scheme="https://zhihuali.cn/categories/Exceptions/"/>
+    
+    
+    <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>【JSON】Jackson使用</title>
@@ -480,32 +504,6 @@
     
     
     <category term="Java" scheme="https://zhihuali.cn/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【已解决】关于admin插入图片后裂图情况</title>
-    <link href="https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/"/>
-    <id>https://zhihuali.cn/2020/08/21/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91%E5%85%B3%E4%BA%8Eadmin%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%90%8E%E8%A3%82%E5%9B%BE%E6%83%85%E5%86%B5/</id>
-    <published>2020-08-21T05:32:00.000Z</published>
-    <updated>2020-08-22T03:08:40.715Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: 【已解决】关于admin插入图片后裂图情况<br>author: Zhihua Li<br>date: 2020-08-21 09:45:11</p><p>在使用插件Hexo-admin插入图片时，会发现这样的情况</p><p><img src="/images/pasted-2.png" alt="upload successful"><br>而右侧框中则会显示且并不会出现具体的图片</p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p>其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片</p><a id="more"></a><p><img src="/images/pasted-6.png" alt="upload successful"></p><p>解决方法：</p><p>1.<br><img src="/images/pasted-7.png" alt="upload successful"></p><p>2.</p><p>双击进入 并打开api.js文件</p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p>3.将图中红框位置处代码修改为</p><p><img src="/images/pasted-9.png" alt="upload successful"></p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>重新刷新一下界面即可</p>]]></content>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;title: 【已解决】关于admin插入图片后裂图情况&lt;br&gt;author: Zhihua Li&lt;br&gt;date: 2020-08-21 09:45:11&lt;/p&gt;
-&lt;p&gt;在使用插件Hexo-admin插入图片时，会发现这样的情况&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload successful&quot;&gt;&lt;br&gt;而右侧框中则会显示且并不会出现具体的图片&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/pasted-4.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
-&lt;p&gt;其实是配置文件中路径的书写格式出错导致图片的路径出错因此无法上传正确的图片&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://zhihuali.cn/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://zhihuali.cn/tags/Hexo/"/>
     
   </entry>
   
